@@ -1,5 +1,11 @@
 {
+	"printWidth": 100,
+	"tabWidth": 2,
+	"tabs": false,
 	"singleQuote": true,
+	"semicolon": true,
+	"quoteProps": "preserve",
+	"bracketSpacing": false,
 	"proseWrap": "always",
 	"trailingComma": "all",
 	"plugins": ["prettier-plugin-organize-imports", "prettier-plugin-sh"]

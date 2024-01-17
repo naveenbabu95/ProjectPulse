@@ -61,7 +61,8 @@
           "buildTarget": "project-pulse:build:production"
         },
         "development": {
-          "buildTarget": "project-pulse:build:development"
+          "buildTarget": "project-pulse:build:development",
+          "port": 3500
         }
       },
       "defaultConfiguration": "development"
