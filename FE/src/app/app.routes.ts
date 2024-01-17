@@ -21,7 +21,9 @@ export const appRoutes: Route[] = [
 			),
 	},
     {
-		path: 'page-not-found',
+		//Wild Card Route for 404 request 
+		path: '**', 
+		pathMatch: 'full', 
 		loadComponent: () =>
 			import('../app/page-not-found/page-not-found.component').then(
 				(m) => m.PageNotFoundComponent,
