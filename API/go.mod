@@ -4,12 +4,11 @@ go 1.21.6
 
 require (
 	github.com/gobuffalo/buffalo v1.1.0
-	github.com/gobuffalo/buffalo-pop/v3 v3.0.7
 	github.com/gobuffalo/envy v1.10.2
-	github.com/gobuffalo/grift v1.5.2
 	github.com/gobuffalo/middleware v1.0.0
-	github.com/gobuffalo/pop/v6 v6.1.1
 	github.com/gobuffalo/suite/v4 v4.0.4
+	github.com/gobuffalo/x v0.1.0
+	github.com/rs/cors v1.10.1
 	github.com/unrolled/secure v1.14.0
 )
 
@@ -28,12 +27,14 @@ require (
 	github.com/gobuffalo/fizz v1.14.4 // indirect
 	github.com/gobuffalo/flect v1.0.0 // indirect
 	github.com/gobuffalo/github_flavored_markdown v1.1.3 // indirect
+	github.com/gobuffalo/grift v1.5.2 // indirect
 	github.com/gobuffalo/helpers v0.6.7 // indirect
 	github.com/gobuffalo/httptest v1.5.2 // indirect
 	github.com/gobuffalo/logger v1.0.7 // indirect
 	github.com/gobuffalo/meta v0.3.3 // indirect
 	github.com/gobuffalo/nulls v0.4.2 // indirect
 	github.com/gobuffalo/plush/v4 v4.1.18 // indirect
+	github.com/gobuffalo/pop/v6 v6.1.1 // indirect
 	github.com/gobuffalo/refresh v1.13.3 // indirect
 	github.com/gobuffalo/tags/v3 v3.1.4 // indirect
 	github.com/gobuffalo/validate/v3 v3.3.3 // indirect
